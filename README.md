@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Testes Automatizados com Cypress — Senac RS
 
 Repositório de testes automatizados para a avaliação técnica de **Analista de Teste I** no **Senac RS**, utilizando **Cypress**.
@@ -49,3 +50,7 @@ cypress.config.js       # Configurações do Cypress
 
 👩‍💻 **Vanessa Veiga Lucas**
 [github.com/vanessaveiiga](https://github.com/vanessaveiiga)
+=======
+# course-creation-tests
+Repositório criado para avaliação técnica
+>>>>>>> 22047a6db95e4fb8a02228414567a10849cc5b80
