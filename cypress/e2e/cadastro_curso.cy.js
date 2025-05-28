@@ -4,15 +4,16 @@ import { gerarNomeCurso, gerarNomeAula } from '../support/utils';
 describe("Cadastrar cursos", () => {
   beforeEach(() => {
     cy.session('usuario-logado', () => {
-      cy.login();
-    });
+      cy.login()
+    })
 
-    cy.visit('https://edus-hlg.senacrs.obi.tec.br/curso/create');
-  });
+    cy.visit('https://edus-hlg.senacrs.obi.tec.br/curso/create')
+  })
 
   it("Criar curso com todos os campos válidos", () => {
-    const nomeCurso = gerarNomeCurso()
     const nomeAula = gerarNomeAula()
+    const nomeCurso = gerarNomeCurso()
+    cy.writeFile('cypress/fixtures/nomeCurso.json', { nomeCurso })
 
     cy.get('#menu-hamburger > .bi').click()
     cy.get('#navbarSupportedContent > .navbar-nav > #nav-cursos > #href-cursos').click()
@@ -45,5 +46,5 @@ describe("Cadastrar cursos", () => {
     cy.get('#file-submit').click()
 
     cy.get('.modal-body > .container', {Timeout: 1000}).should('be.visible')
-  });
-});
+  })
+})
