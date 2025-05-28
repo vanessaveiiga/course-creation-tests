@@ -1,7 +1,7 @@
 export function gerarNomeCurso() {
   const palavras = ['Avançado', 'Básico', 'Completo', 'Rápido', 'Prático', 'Essencial', 'Moderno'];
   const temas = ['Cypress', 'Automação', 'Testes', 'JavaScript', 'QA', 'Desenvolvimento', 'Senac'];
-  const numero = Math.floor(Math.random() * 10);
+  const numero = Math.floor(Math.random() * 100);
 
   const palavra = palavras[Math.floor(Math.random() * palavras.length)];
   const tema = temas[Math.floor(Math.random() * temas.length)];
