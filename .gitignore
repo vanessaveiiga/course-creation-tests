@@ -1,0 +1,12 @@
+# Ignorar node_modules (dependências do projeto)
+node_modules/
+cypress/videos/
+cypress/screenshots/
+
+# Ignorar arquivos de log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignorar arquivos de ambiente
+.env
