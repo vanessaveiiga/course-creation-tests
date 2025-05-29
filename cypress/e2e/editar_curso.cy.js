@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 import { gerarNomeCurso } from '../support/utils';
 
-describe("Cadastrar cursos", () => {
+describe("Editar cursos", () => {
   beforeEach(() => {
     cy.session('usuario-logado', () => {
       cy.login()
