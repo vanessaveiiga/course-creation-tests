@@ -1,14 +1,13 @@
-<<<<<<< HEAD
 # Testes Automatizados com Cypress — Senac RS
 
-Repositório de testes automatizados para a avaliação técnica de **Analista de Teste I** no **Senac RS**, utilizando **Cypress**.
+Repositório contendo testes automatizados para a avaliação técnica de **Analista de Teste I** no **Senac RS**, utilizando **Cypress**.
 
 * 🌐 Site testado: [https://edus-hlg.senacrs.obi.tec.br](https://edus-hlg.senacrs.obi.tec.br)
 * 📁 Repositório: [github.com/vanessaveiiga/course-creation-tests](https://github.com/vanessaveiiga/course-creation-tests)
 
 ---
 
-## Tecnologias
+## Tecnologias Utilizadas
 
 * Cypress + JavaScript (ES6)
 * Node.js
@@ -33,24 +32,27 @@ npx cypress run    # Modo headless
 * Login no sistema
 * Criação de curso
 * Edição de curso
-* Exclusão de curso
 
 ---
 
-## Estrutura
+## Estrutura do Projeto
 
 ```
-cypress/
-├── tests/              # Casos de teste
-├── support/            # Suporte e comandos
-cypress.config.js       # Configurações do Cypress
+COURSE-CREATION-TESTS/
+├── casos_de_testes/
+├── cypress/
+├── node_modules/
+├── .gitignore
+├── cypress.config.js
+├── cypress.yml
+├── package-lock.json
+├── package.json
+└── README.md
 ```
 
 ---
+
+## Contato
 
 👩‍💻 **Vanessa Veiga Lucas**
 [github.com/vanessaveiiga](https://github.com/vanessaveiiga)
-=======
-# course-creation-tests
-Repositório criado para avaliação técnica
->>>>>>> 22047a6db95e4fb8a02228414567a10849cc5b80
